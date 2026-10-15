@@ -1,0 +1,27 @@
+[
+  {
+    "pattern": "SH",
+    "example": "ship",
+    "note": "Commonly represents /ʃ/."
+  },
+  {
+    "pattern": "CH",
+    "example": "chair",
+    "note": "Commonly represents /tʃ/."
+  },
+  {
+    "pattern": "TH",
+    "example": "think / this",
+    "note": "Can represent two different sounds."
+  },
+  {
+    "pattern": "PH",
+    "example": "phone",
+    "note": "Commonly represents /f/."
+  },
+  {
+    "pattern": "ER",
+    "example": "her",
+    "note": "Pronunciation varies by word and accent."
+  }
+]

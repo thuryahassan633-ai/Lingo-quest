@@ -1,0 +1,17 @@
+[
+  {
+    "letter": "A",
+    "example": "apple",
+    "emoji": "🍎"
+  },
+  {
+    "letter": "B",
+    "example": "ball",
+    "emoji": "⚽"
+  },
+  {
+    "letter": "C",
+    "example": "cat",
+    "emoji": "🐱"
+  }
+]
