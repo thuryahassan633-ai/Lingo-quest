@@ -1,0 +1,22 @@
+[
+  {
+    "type": "letter",
+    "prompt": "Tap A",
+    "options": [
+      "B",
+      "A",
+      "C"
+    ],
+    "answer": "A"
+  },
+  {
+    "type": "word",
+    "prompt": "Find the apple",
+    "options": [
+      "🍌",
+      "🍎",
+      "🍇"
+    ],
+    "answer": "🍎"
+  }
+]

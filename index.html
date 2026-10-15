@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#6558d3">
+  <meta name="description" content="A playful first step into English for little explorers.">
+  <title>Lingo Quest — Little Explorers</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="Lingo Quest home">
+        <span class="brand-mark" aria-hidden="true">🚀</span>
+        <span>Lingo <b>Quest</b></span>
+      </a>
+      <div class="star-counter" aria-label="Your star total">
+        <span aria-hidden="true">⭐</span>
+        <span id="starCount">0</span>
+        <span class="star-label">stars</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-card" aria-labelledby="welcomeTitle">
+        <div class="hero-copy">
+          <p class="eyebrow"><span aria-hidden="true">✨</span> YOUR NEXT ADVENTURE</p>
+          <h1 id="welcomeTitle">Hello, little <span>explorer!</span></h1>
+          <p class="hero-description">Play, discover, and learn your first English words.</p>
+          <button class="primary-button" id="playButton">
+            Let’s play <span aria-hidden="true">➜</span>
+          </button>
+          <p class="tiny-note">Little steps. Big discoveries.</p>
+        </div>
+
+        <div class="hero-art" aria-label="Space adventure with Foxy the guide">
+          <span class="planet planet-one" aria-hidden="true">🪐</span>
+          <span class="planet planet-two" aria-hidden="true">✨</span>
+          <button class="mascot-button" id="foxyButton" aria-label="Say hello to Foxy">
+            <span class="mascot-character" aria-hidden="true">🦊</span>
+            <span class="mascot-name">Foxy</span>
+            <span class="speech-bubble">Hi, friend!</span>
+          </button>
+          <span class="rocket" aria-hidden="true">🚀</span>
+          <span class="planet planet-three" aria-hidden="true">⭐</span>
+          <span class="cloud" aria-hidden="true">☁️</span>
+          <span class="sparkle sparkle-one" aria-hidden="true">✦</span>
+          <span class="sparkle sparkle-two" aria-hidden="true">✧</span>
+        </div>
+      </section>
+
+      <section class="activities-section" id="activities" aria-labelledby="activitiesTitle">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">PICK A PATH</p>
+            <h2 id="activitiesTitle">Where shall we go?</h2>
+          </div>
+          <span class="map-stamp" aria-hidden="true">🗺️</span>
+        </div>
+
+        <div class="activity-grid">
+          <button class="activity-card card-letters" data-activity="letters">
+            <span class="activity-illustration" aria-hidden="true">🔤</span>
+            <span class="activity-title">Letter Galaxy</span>
+            <span class="activity-description">Meet your ABC friends</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="activity-card card-words" data-activity="words">
+            <span class="activity-illustration" aria-hidden="true">🍎</span>
+            <span class="activity-title">Word Jungle</span>
+            <span class="activity-description">Discover new words</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </button>
+          <button class="activity-card card-build" data-activity="builder">
+            <span class="activity-illustration" aria-hidden="true">🧩</span>
+            <span class="activity-title">Word Builder</span>
+            <span class="activity-description">Put letters together</span>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="game-panel" id="gamePanel" aria-live="polite" hidden>
+        <div class="game-panel-heading">
+          <div>
+            <p class="eyebrow" id="gameEyebrow">YOUR MISSION</p>
+            <h2 id="gameTitle">Ready to play?</h2>
+          </div>
+          <button class="close-button" id="closeGame" aria-label="Close activity">✕</button>
+        </div>
+        <p class="game-instruction" id="gameInstruction">Choose an answer to begin.</p>
+        <div class="game-content" id="gameContent"></div>
+        <p class="game-feedback" id="gameFeedback" role="status"></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <span aria-hidden="true">🌈</span> Made for curious little minds
+      <span aria-hidden="true">💜</span>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "Lingo Quest",
+  "short_name": "Lingo Quest",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#faf9ff",
+  "theme_color": "#6558d3",
+  "description": "A playful first step into English for little explorers."
+}
